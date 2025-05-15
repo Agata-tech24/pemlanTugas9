@@ -1,0 +1,6 @@
+Kesalahan:
+Menggunakan tanda kutip yang salah (“ dan ”) — harus pakai tanda kutip biasa (")
+Karakter \ di path harus di-escape (ditulis \\) atau pakai /
+
+Perbaikan:
+var file = new File("C:\\Data\\Java\\teks.txt");
