@@ -1,0 +1,9 @@
+Maka program akan mengalami error pada saat runtime dan akan melempar exception, yaitu:
+
+java.io.FileNotFoundException
+
+Dampaknya:
+Program akan langsung berhenti pada titik error
+Baris-baris kode setelahnya tidak akan dieksekusi
+Jika exception tidak ditangani (try-catch), akan muncul stack trace di konsol yang menunjukkan letak kesalahan
+
